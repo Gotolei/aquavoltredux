@@ -2,7 +2,7 @@
 ;Revolt .INF file structure
 ;--------------------------
 
-NAME		'Toy World Aquatica: Redux BETA'	;The name of the level as seen in-game
+NAME		'Toy World Aquatica: Redux [BETA]'	;The name of the level as seen in-game
 STARTPOS	0 0 0	;Start position of the car
 STARTPOSREV	0  0 0	;Start position of the car
 STARTROT	0		;Start rotation of the car (0 - 1)
