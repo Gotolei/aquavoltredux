@@ -2,12 +2,12 @@
 ;Revolt .INF file structure
 ;--------------------------
 
-NAME		'Toy World Aquatica: Redux [2007.3]'	;The name of the level as seen in-game
-STARTPOS	0 0 0	;Start position of the car
-STARTPOSREV	0 0 0	;Start position of the car
+NAME		'Toy World Aquatica: Redux [2207.1]'	;The name of the level as seen in-game
+STARTPOS	-100 0 0		;Start position of the car
+STARTPOSREV	100 250 2000	;Start position of the car
 STARTROT	0		;Start rotation of the car (0 - 1)
-STARTROTREV	0		;Start rotation of the car (0 - 1)
-STARTGRID	0 
+STARTROTREV	.5		;Start rotation of the car (0 - 1)
+STARTGRID	0
 STARTGRIDREV	0 
 FARCLIP		70000		;Far clipping distance (draw distance)
 FOGSTART	65000		;Fog start (slightly less than FARCLIP)
@@ -17,6 +17,5 @@ VERTFOGEND	0		;Vertical fog end (as in rooftops)
 WORLDRGBPER     100             ;RGB percent of original world gouraud
 MODELRGBPER	50		;RGB percent of original model gouraud
 INSTANCERGBPER	50		;RGB percent of original instance gouraud
-MIRRORS		0 0 0 0	;Type - mix - intensity start - distance
-;MP3		'Toys For The Boys.mp3'
+MIRRORS		0 0 0 0		;Type - mix - intensity start - distance
 REDBOOK		1 3
